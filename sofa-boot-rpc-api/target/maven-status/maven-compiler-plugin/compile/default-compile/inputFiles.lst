@@ -1,0 +1,11 @@
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/UserService.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/entity/User.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/PersonServiceDubbo.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/entity/Teacher.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/TeacherService.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/PersonServiceRest.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/JdbcService.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/HelloService.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/JedisService.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/PersonServiceZookeeper.java
+/Users/guolei.sgl/Documents/test/sofa-stack-parent/sofa-boot-rpc-api/src/main/java/com/xiaoma/sofa/boot/service/PersonServiceBolt.java

@@ -1,0 +1,5 @@
+com/xiaoma/sofa/boot/Controller/UserController.class
+com/xiaoma/sofa/boot/sofaregistry/SofaRegistryClient.class
+com/xiaoma/sofa/boot/Controller/SampleRestController.class
+com/xiaoma/sofa/boot/Controller/JedisDemoController.class
+com/xiaoma/sofa/boot/SofaBootRpcClientDemoApplication.class

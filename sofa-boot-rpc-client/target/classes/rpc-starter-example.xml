@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sofa="http://sofastack.io/schema/sofaboot"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://sofastack.io/schema/sofaboot   http://sofastack.io/schema/sofaboot.xsd"
+       default-autowire="byName">
+
+    <!--Dubbo 协议只支持 Zookeeper 作为服务注册中心
+    当前支持 SOFARegistry 的版本：SOFARPC: 5.5.2, SOFABoot: 2.6.3(rpc-sofa-com.xiaoma.sofa.boot-starter)
+    SOFARPC 集成验证 SOFARegistry 服务端版本：5.2.0（registry-client-all）-->
+    <!--注意:使用其中一个案例都需注释另一个案例，并修改配置文件，启动前先启动注册中心-->
+    <!--zookeeper案例，使用此案例修改配置文件com.alipay.sofa.rpc.registry.address=zookeeper://127.0.0.1:2181-->
+    <!--注册中心：zookeeper-->
+    <sofa:reference id="personServiceZookeeperBolt" interface="com.xiaoma.sofa.boot.service.PersonServiceZookeeper">
+        <sofa:binding.bolt/>
+    </sofa:reference>
+    <sofa:reference id="jdbcService" interface="com.xiaoma.sofa.boot.service.JdbcService">
+        <sofa:binding.bolt/>
+    </sofa:reference>
+    <sofa:reference id="userService" interface="com.xiaoma.sofa.boot.service.UserService">
+        <sofa:binding.bolt/>
+    </sofa:reference>
+    <sofa:reference id="jedisService" interface="com.xiaoma.sofa.boot.service.JedisService">
+        <sofa:binding.bolt/>
+    </sofa:reference>
+    <sofa:reference id="teacherService" interface="com.xiaoma.sofa.boot.service.TeacherService">
+        <sofa:binding.bolt/>
+    </sofa:reference>
+   <!-- <sofa:reference id="personServiceZookeeperRest" interface="com.xiaoma.sofa.boot.service.PersonServiceZookeeper">
+        <sofa:binding.rest/>
+    </sofa:reference>
+    <sofa:reference id="personServiceZookeeperDubbo" interface="com.xiaoma.sofa.boot.service.PersonServiceZookeeper">
+        <sofa:binding.dubbo/>
+    </sofa:reference>-->
+
+    <!--注册中心：SOFARegistry-->
+    <!--<sofa:reference id="personServiceRest" interface="com.xiaoma.sofa.boot.service.PersonServiceRest">
+        <sofa:binding.rest/>
+    </sofa:reference>
+
+    <sofa:reference id="personReferenceBolt" interface="com.xiaoma.sofa.boot.service.PersonServiceBolt">
+        <sofa:binding.bolt/>
+    </sofa:reference>-->
+
+
+
+</beans>

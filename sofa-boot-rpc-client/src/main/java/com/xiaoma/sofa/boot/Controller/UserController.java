@@ -30,10 +30,9 @@ public class UserController {
     @RequestMapping("getTeacher")
     public String getUserList(){
         List<Teacher> teacherList = teacherService.getTeacherList();
-       /* for (Teacher t: teacherList){
+       for (Teacher t: teacherList){
             System.out.println("Teacher:"+t.getName());
-        }*/
-       teacherList.forEach((id)-> System.out.println(id));
+        }
         return "成功";
     }
 }
