@@ -1,0 +1,18 @@
+2019-10-29 15:57:20,543 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-1-thread-1] Connection channel registered: UNKNOWN-ADDR
+2019-10-29 15:57:20,544 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-1-thread-1] Try connect to 169.254.171.76:12200
+2019-10-29 15:57:20,553 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-1] Connection channel active: 169.254.171.76:12200
+2019-10-29 15:57:20,926 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 169.254.171.76:50709
+2019-10-29 15:57:20,926 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 169.254.171.76:50709
+2019-10-29 15:57:54,912 WARN  [ConnectionEventHandler#181] [Rpc-netty-server-worker-1-thread-1] ExceptionCaught in connection: local[169.254.171.76:12200], remote[169.254.171.76:50709], close the connection! Cause[IOException:远程主机强迫关闭了一个现有的连接。]
+2019-10-29 15:57:54,912 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection closed: 169.254.171.76:50709
+2019-10-29 15:57:55,006 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel inactive: 169.254.171.76:50709
+2019-10-29 15:57:55,008 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel unregistered: 169.254.171.76:50709
+2019-10-29 15:58:31,542 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-1-thread-1] Connection channel registered: UNKNOWN-ADDR
+2019-10-29 15:58:31,542 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-1-thread-1] Try connect to 169.254.171.76:12200
+2019-10-29 15:58:31,548 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-2] Connection channel registered: 169.254.171.76:50782
+2019-10-29 15:58:31,549 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-2] Connection channel active: 169.254.171.76:50782
+2019-10-29 15:58:31,553 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-1] Connection channel active: 169.254.171.76:12200
+2019-10-29 16:03:24,196 WARN  [ConnectionEventHandler#181] [Rpc-netty-server-worker-1-thread-2] ExceptionCaught in connection: local[169.254.171.76:12200], remote[169.254.171.76:50782], close the connection! Cause[IOException:远程主机强迫关闭了一个现有的连接。]
+2019-10-29 16:03:24,200 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-2] Connection closed: 169.254.171.76:50782
+2019-10-29 16:03:24,201 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-2] Connection channel inactive: 169.254.171.76:50782
+2019-10-29 16:03:24,203 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-2] Connection channel unregistered: 169.254.171.76:50782

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>sofa-stack-parent</artifactId>
+        <groupId>com.xiaoma</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xiaoma</groupId>
+    <artifactId>sofa-boot-rpc-client</artifactId>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.xiaoma</groupId>
+            <artifactId>sofa-boot-rpc-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- SOFA-RPC 环境 -->
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>rpc-sofa-boot-starter</artifactId>
+            <!--<version>5.5.2</version>-->
+        </dependency>
+
+        <!--SOFABoot 健康检查Start -->
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>healthcheck-sofa-boot-starter</artifactId>
+        </dependency>
+        <!--SOFABoot 健康检查End -->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!--rpc-sofa-boot-starter 5.5.2 和registry-client-all 5.2.0支持sofaRegistry-->
+        <!--SofaRegistry Start-->
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>registry-client-all</artifactId>
+            <version>5.2.0</version>
+        </dependency>
+        <!--SofaRegistry End-->
+
+        <!--Lombok是一个通过注解形式帮助构造简洁、规范的Java代码的工具，通过使用对应的注解，可以在编译源码的时候生成对应的方法-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--SOFATracer + Zipkin实现分布式链路跟踪Start-->
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>tracer-sofa-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.zipkin2</groupId>
+            <artifactId>zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.reporter2</groupId>
+            <artifactId>zipkin-reporter</artifactId>
+        </dependency>
+        <!--SOFATracer + Zipkin实现分布式链路跟踪End-->
+
+        <!--Logback 实现引入-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+        <!--Logback 实现引入-->
+
+        <!-- Zookeeper 作为服务注册列表 -->
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.zookeeper</groupId>
+                    <artifactId>zookeeper</artifactId>
+                </exclusion>
+            </exclusions>
+            <version>0.10</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

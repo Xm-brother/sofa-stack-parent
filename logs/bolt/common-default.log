@@ -1,0 +1,3 @@
+2019-10-29 15:55:17,959 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-10-29 15:55:19,015 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-10-29 15:57:31,485 WARN  [BaseRemoting#90] [main] Wait response, request id=1 timeout!

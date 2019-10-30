@@ -1,0 +1,84 @@
+2019-10-29 15:54:48,581 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-29 15:55:08,518 INFO  main                             - Registering component: service:com.xiaoma.sofa.boot.service.PersonServiceZookeeper
+2019-10-29 15:55:08,518 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:55:14,672 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:55:14,673 INFO  main                             -  <<Out Binding [bolt] Begins - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:55:14,954 INFO  main                             -  <<Out Binding [bolt] Ends - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:55:14,954 INFO  main                             - Register Service - com.xiaoma.sofa.boot.service.PersonServiceZookeeper
+2019-10-29 15:55:14,958 INFO  main                             - Registering component: service:com.xiaoma.sofa.boot.service.JdbcService
+2019-10-29 15:55:14,958 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:55:14,958 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:55:14,958 INFO  main                             -  <<Out Binding [bolt] Begins - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:55:14,959 INFO  main                             -  <<Out Binding [bolt] Ends - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:55:14,959 INFO  main                             - Register Service - com.xiaoma.sofa.boot.service.JdbcService
+2019-10-29 15:55:14,962 INFO  main                             - Registering component: service:com.xiaoma.sofa.boot.service.UserService
+2019-10-29 15:55:14,962 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:55:14,963 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:55:14,963 INFO  main                             -  <<Out Binding [bolt] Begins - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:55:14,964 INFO  main                             -  <<Out Binding [bolt] Ends - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:55:14,964 INFO  main                             - Register Service - com.xiaoma.sofa.boot.service.UserService
+2019-10-29 15:55:14,967 INFO  main                             - Registering component: service:com.xiaoma.sofa.boot.service.JedisService
+2019-10-29 15:55:14,967 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:55:14,968 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:55:14,968 INFO  main                             -  <<Out Binding [bolt] Begins - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:55:14,969 INFO  main                             -  <<Out Binding [bolt] Ends - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:55:14,969 INFO  main                             - Register Service - com.xiaoma.sofa.boot.service.JedisService
+2019-10-29 15:55:14,971 INFO  main                             - Registering component: service:com.xiaoma.sofa.boot.service.TeacherService
+2019-10-29 15:55:14,972 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:55:14,972 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:55:14,972 INFO  main                             -  <<Out Binding [bolt] Begins - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:55:14,973 INFO  main                             -  <<Out Binding [bolt] Ends - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:55:14,973 INFO  main                             - Register Service - com.xiaoma.sofa.boot.service.TeacherService
+2019-10-29 15:57:01,530 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-29 15:57:13,185 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.JedisService:#-64410369
+2019-10-29 15:57:13,186 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:57:18,917 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:57:18,917 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:57:18,922 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:57:18,931 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.PersonServiceZookeeper:#-31019352
+2019-10-29 15:57:18,931 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:57:20,669 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:57:20,669 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:57:20,671 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:57:20,676 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.JdbcService:#1448926839
+2019-10-29 15:57:20,676 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:57:20,943 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:57:20,943 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:57:20,944 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:57:20,950 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.UserService:#510501407
+2019-10-29 15:57:20,950 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:57:21,673 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:57:21,675 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:57:21,679 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:57:21,687 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.TeacherService:#-1260513354
+2019-10-29 15:57:21,687 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:57:22,035 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:57:22,035 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:57:22,038 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:58:19,983 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-29 15:58:24,089 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.JedisService:#1938488525
+2019-10-29 15:58:24,090 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:58:29,998 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:58:29,998 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:58:30,006 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.JedisService.
+2019-10-29 15:58:30,012 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.PersonServiceZookeeper:#-739440722
+2019-10-29 15:58:30,012 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:58:32,081 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:58:32,081 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:58:32,085 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.PersonServiceZookeeper.
+2019-10-29 15:58:32,092 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.JdbcService:#1703169201
+2019-10-29 15:58:32,092 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:58:33,100 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:58:33,100 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:58:33,102 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.JdbcService.
+2019-10-29 15:58:33,113 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.UserService:#-197919963
+2019-10-29 15:58:33,113 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:58:33,710 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:58:33,710 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:58:33,715 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.UserService.
+2019-10-29 15:58:33,725 INFO  main                             - Registering component: reference:com.xiaoma.sofa.boot.service.TeacherService:#340880746
+2019-10-29 15:58:33,726 INFO  main                             -  >>In Binding [bolt] Begins - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:58:34,373 INFO  main                             -  >>In Binding [bolt] Ends - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:58:34,373 INFO  main                             -  >>In Binding [jvm] Begins - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 15:58:34,375 INFO  main                             -  >>In Binding [jvm] Ends - com.xiaoma.sofa.boot.service.TeacherService.
+2019-10-29 18:31:35,081 INFO  main                             - SOFABoot Runtime Starting!

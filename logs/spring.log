@@ -1,0 +1,2 @@
+2019-10-29 18:31:35.231  INFO 11572 --- [main] com.uxun.uxunplat.CoreApplication        : Starting CoreApplication on JN48P622AU39K8X with PID 11572 (started by Administrator in E:\MyEclipse-Work\sofa-demo\sofa-stack-parent)
+2019-10-29 18:31:35.232  INFO 11572 --- [main] com.uxun.uxunplat.CoreApplication        : The following profiles are active: oracle,redis

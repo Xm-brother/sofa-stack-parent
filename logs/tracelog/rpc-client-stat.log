@@ -1,0 +1,4 @@
+{"time":"2019-10-29 15:59:24.334","stat.key":{"method":"sayName","local.app":"sofa-client","remote.app":"sofa-server","service":"com.xiaoma.sofa.boot.service.PersonServiceZookeeper:1.0"},"count":1,"total.cost.milliseconds":111,"success":"Y"}
+{"time":"2019-10-29 16:00:24.332","stat.key":{"method":"findByName","local.app":"sofa-client","remote.app":"sofa-server","service":"com.xiaoma.sofa.boot.service.UserService:1.0"},"count":1,"total.cost.milliseconds":2364,"success":"Y"}
+{"time":"2019-10-29 16:01:24.332","stat.key":{"method":"test","local.app":"sofa-client","remote.app":"sofa-server","service":"com.xiaoma.sofa.boot.service.JedisService:1.0"},"count":1,"total.cost.milliseconds":2400,"success":"Y"}
+{"time":"2019-10-29 16:01:24.333","stat.key":{"method":"sayName","local.app":"sofa-client","remote.app":"sofa-server","service":"com.xiaoma.sofa.boot.service.PersonServiceZookeeper:1.0"},"count":1,"total.cost.milliseconds":14,"success":"Y"}

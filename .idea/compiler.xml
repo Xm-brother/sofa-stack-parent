@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="emm-api-core" />
+        <module name="emm-front" />
+        <module name="emm-provider-core" />
+        <module name="sofa-boot-rpc-api" />
+        <module name="sofa-boot-rpc-client" />
+        <module name="sofa-boot-rpc-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="emm-api-core" options="-parameters" />
+      <module name="emm-front" options="-parameters" />
+      <module name="emm-provider-core" options="-parameters" />
+    </option>
+  </component>
+</project>

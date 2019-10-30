@@ -1,0 +1,129 @@
+2019-10-29 15:55:11,929 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:18236
+2019-10-29 15:55:12,013 INFO  main                             - Install Module: fault-tolerance
+2019-10-29 15:55:12,113 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-10-29 15:55:14,622 INFO  main                             - The module lookout does not need to be loaded.
+2019-10-29 15:55:14,622 INFO  main                             - Install Module: sofaTracer
+2019-10-29 15:55:14,705 INFO  main                             - Export provider config : com.xiaoma.sofa.boot.service.PersonServiceZookeeper::bolt with bean id personServiceZookeeperImpl
+2019-10-29 15:55:14,958 INFO  main                             - Export provider config : com.xiaoma.sofa.boot.service.JdbcService::bolt with bean id jdbcServiceImpl
+2019-10-29 15:55:14,963 INFO  main                             - Export provider config : com.xiaoma.sofa.boot.service.UserService::bolt with bean id userServiceImpl
+2019-10-29 15:55:14,968 INFO  main                             - Export provider config : com.xiaoma.sofa.boot.service.JedisService::bolt with bean id jedisServiceImpl
+2019-10-29 15:55:14,972 INFO  main                             - Export provider config : com.xiaoma.sofa.boot.service.TeacherService::bolt with bean id teacherServiceImpl
+2019-10-29 15:55:48,868 INFO  main                             - service published.  interfaceId[com.xiaoma.sofa.boot.service.JedisService]; protocol[bolt]
+2019-10-29 15:55:49,304 INFO  main                             - service published.  interfaceId[com.xiaoma.sofa.boot.service.UserService]; protocol[bolt]
+2019-10-29 15:55:49,702 INFO  main                             - service published.  interfaceId[com.xiaoma.sofa.boot.service.PersonServiceZookeeper]; protocol[bolt]
+2019-10-29 15:55:50,459 INFO  main                             - service published.  interfaceId[com.xiaoma.sofa.boot.service.TeacherService]; protocol[bolt]
+2019-10-29 15:55:50,831 INFO  main                             - service published.  interfaceId[com.xiaoma.sofa.boot.service.JdbcService]; protocol[bolt]
+2019-10-29 15:57:13,447 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:18796
+2019-10-29 15:57:13,492 INFO  main                             - Install Module: fault-tolerance
+2019-10-29 15:57:13,527 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-10-29 15:57:13,643 INFO  main                             - The module lookout does not need to be loaded.
+2019-10-29 15:57:13,643 INFO  main                             - Install Module: sofaTracer
+2019-10-29 15:57:13,679 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.JedisService: with bean id jedisService
+2019-10-29 15:57:18,934 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.PersonServiceZookeeper: with bean id personServiceZookeeperBolt
+2019-10-29 15:57:20,677 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.JdbcService: with bean id jdbcService
+2019-10-29 15:57:20,951 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.UserService: with bean id userService
+2019-10-29 15:57:21,689 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.TeacherService: with bean id teacherService
+2019-10-29 15:57:25,474 INFO  main                             - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@b46e103
+2019-10-29 15:57:29,373 INFO  SOFA-SEV-BOLT-BIZ-12200-3-T1     - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@41f31ae5
+2019-10-29 15:57:31,631 WARN  SOFA-SEV-BOLT-BIZ-12200-3-T1     - Handle class com.alipay.sofa.rpc.event.ServerReceiveEvent error
+java.util.ServiceConfigurationError: com.alipay.common.tracer.core.extensions.SpanExtension: Provider com.alipay.common.tracer.extensions.log.MDCSpanExtension not a subtype
+	at java.util.ServiceLoader.fail(ServiceLoader.java:239)
+	at java.util.ServiceLoader.access$300(ServiceLoader.java:185)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:376)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at com.alipay.common.tracer.core.extensions.SpanExtensionFactory.<clinit>(SpanExtensionFactory.java:35)
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:154)
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:119)
+	at com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer.serverReceived(RpcSofaTracer.java:420)
+	at com.alipay.sofa.rpc.tracer.Tracers.serverReceived(Tracers.java:136)
+	at com.alipay.sofa.rpc.event.SofaTracerSubscriber.onEvent(SofaTracerSubscriber.java:73)
+	at com.alipay.sofa.rpc.event.EventBus.handleEvent(EventBus.java:141)
+	at com.alipay.sofa.rpc.event.EventBus.post(EventBus.java:119)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:123)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-29 15:58:24,218 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:18176
+2019-10-29 15:58:24,242 INFO  main                             - Install Module: fault-tolerance
+2019-10-29 15:58:24,263 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-10-29 15:58:24,349 INFO  main                             - The module lookout does not need to be loaded.
+2019-10-29 15:58:24,350 INFO  main                             - Install Module: sofaTracer
+2019-10-29 15:58:24,394 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.JedisService: with bean id jedisService
+2019-10-29 15:58:30,015 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.PersonServiceZookeeper: with bean id personServiceZookeeperBolt
+2019-10-29 15:58:32,094 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.JdbcService: with bean id jdbcService
+2019-10-29 15:58:33,116 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.UserService: with bean id userService
+2019-10-29 15:58:33,730 INFO  main                             - Refer consumer config : bolt://com.xiaoma.sofa.boot.service.TeacherService: with bean id teacherService
+2019-10-29 15:58:37,351 INFO  main                             - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@74d6736
+2019-10-29 15:58:39,461 WARN  SOFA-SEV-BOLT-BIZ-12200-3-T2     - Handle class com.alipay.sofa.rpc.event.ServerReceiveEvent error
+java.lang.NoClassDefFoundError: Could not initialize class com.alipay.common.tracer.core.extensions.SpanExtensionFactory
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:154)
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:119)
+	at com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer.serverReceived(RpcSofaTracer.java:420)
+	at com.alipay.sofa.rpc.tracer.Tracers.serverReceived(Tracers.java:136)
+	at com.alipay.sofa.rpc.event.SofaTracerSubscriber.onEvent(SofaTracerSubscriber.java:73)
+	at com.alipay.sofa.rpc.event.EventBus.handleEvent(EventBus.java:141)
+	at com.alipay.sofa.rpc.event.EventBus.post(EventBus.java:119)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:123)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-29 15:59:52,811 WARN  SOFA-SEV-BOLT-BIZ-12200-3-T3     - Handle class com.alipay.sofa.rpc.event.ServerReceiveEvent error
+java.lang.NoClassDefFoundError: Could not initialize class com.alipay.common.tracer.core.extensions.SpanExtensionFactory
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:154)
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:119)
+	at com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer.serverReceived(RpcSofaTracer.java:420)
+	at com.alipay.sofa.rpc.tracer.Tracers.serverReceived(Tracers.java:136)
+	at com.alipay.sofa.rpc.event.SofaTracerSubscriber.onEvent(SofaTracerSubscriber.java:73)
+	at com.alipay.sofa.rpc.event.EventBus.handleEvent(EventBus.java:141)
+	at com.alipay.sofa.rpc.event.EventBus.post(EventBus.java:119)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:123)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-29 16:00:23,126 WARN  SOFA-SEV-BOLT-BIZ-12200-3-T4     - Handle class com.alipay.sofa.rpc.event.ServerReceiveEvent error
+java.lang.NoClassDefFoundError: Could not initialize class com.alipay.common.tracer.core.extensions.SpanExtensionFactory
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:154)
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:119)
+	at com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer.serverReceived(RpcSofaTracer.java:420)
+	at com.alipay.sofa.rpc.tracer.Tracers.serverReceived(Tracers.java:136)
+	at com.alipay.sofa.rpc.event.SofaTracerSubscriber.onEvent(SofaTracerSubscriber.java:73)
+	at com.alipay.sofa.rpc.event.EventBus.handleEvent(EventBus.java:141)
+	at com.alipay.sofa.rpc.event.EventBus.post(EventBus.java:119)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:123)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-29 16:00:44,163 WARN  SOFA-SEV-BOLT-BIZ-12200-3-T5     - Handle class com.alipay.sofa.rpc.event.ServerReceiveEvent error
+java.lang.NoClassDefFoundError: Could not initialize class com.alipay.common.tracer.core.extensions.SpanExtensionFactory
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:154)
+	at com.alipay.common.tracer.core.span.SofaTracerSpan.<init>(SofaTracerSpan.java:119)
+	at com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer.serverReceived(RpcSofaTracer.java:420)
+	at com.alipay.sofa.rpc.tracer.Tracers.serverReceived(Tracers.java:136)
+	at com.alipay.sofa.rpc.event.SofaTracerSubscriber.onEvent(SofaTracerSubscriber.java:73)
+	at com.alipay.sofa.rpc.event.EventBus.handleEvent(EventBus.java:141)
+	at com.alipay.sofa.rpc.event.EventBus.post(EventBus.java:119)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:123)
+	at com.alipay.sofa.rpc.server.bolt.BoltServerProcessor.handleRequest(BoltServerProcessor.java:61)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:218)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:145)
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:371)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

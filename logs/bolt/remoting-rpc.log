@@ -1,0 +1,5 @@
+2019-10-29 15:55:18,341 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-10-29 15:57:15,577 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.xiaoma.sofa.boot.service.JedisService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-10-29 15:57:31,490 WARN  [RpcResponseResolver#143] [main] Rpc invocation timeout[responseCommand TIMEOUT]! the address is 169.254.171.76:12200
+2019-10-29 15:57:32,359 WARN  [RpcResponseProcessor#80] [Bolt-default-executor-3-thread-1] Cannot find InvokeFuture, maybe already timeout, id=1, from=169.254.171.76:12200 
+2019-10-29 15:58:26,854 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.xiaoma.sofa.boot.service.JedisService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes

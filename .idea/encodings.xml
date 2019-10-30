@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../IDEA-深商行/src/emm-all" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../IDEA-深商行/src/emm-all/emm-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../IDEA-深商行/src/emm-all/emm-api/emm-api-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../IDEA-深商行/src/emm-all/emm-front" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../IDEA-深商行/src/emm-all/emm-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../IDEA-深商行/src/emm-all/emm-provider/emm-provider-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-boot-rpc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-boot-rpc-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sofa-boot-rpc-server" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

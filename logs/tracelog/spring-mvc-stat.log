@@ -1,0 +1,3 @@
+{"time":"2019-10-29 16:00:24.333","stat.key":{"method":"GET","local.app":"sofa-client","request.url":"http://127.0.0.1:8081/user/getUser"},"count":1,"total.cost.milliseconds":3097,"success":"true","load.test":"F"}
+{"time":"2019-10-29 16:01:24.333","stat.key":{"method":"GET","local.app":"sofa-client","request.url":"http://127.0.0.1:8081/rpc/helloword"},"count":1,"total.cost.milliseconds":35,"success":"true","load.test":"F"}
+{"time":"2019-10-29 16:01:24.333","stat.key":{"method":"GET","local.app":"sofa-client","request.url":"http://127.0.0.1:8081/jedis/getjedis"},"count":1,"total.cost.milliseconds":2438,"success":"true","load.test":"F"}
